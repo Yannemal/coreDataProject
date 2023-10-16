@@ -13,6 +13,11 @@
 		7C67FCF52ADBEEAC0007440C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C67FCF42ADBEEAC0007440C /* Preview Assets.xcassets */; };
 		7C67FCFF2ADBEF470007440C /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C67FCFD2ADBEF470007440C /* CoreDataProject.xcdatamodeld */; };
 		7C67FD012ADBEF8E0007440C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67FD002ADBEF8E0007440C /* DataController.swift */; };
+		7CCE88E32ADCFAF6003D4DAE /* Candy+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE88DF2ADCFAF6003D4DAE /* Candy+CoreDataClass.swift */; };
+		7CCE88E42ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE88E02ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift */; };
+		7CCE88E52ADCFAF6003D4DAE /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE88E12ADCFAF6003D4DAE /* Country+CoreDataClass.swift */; };
+		7CCE88E62ADCFAF6003D4DAE /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE88E22ADCFAF6003D4DAE /* Country+CoreDataProperties.swift */; };
+		7CCE88E82ADD07E9003D4DAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CCE88E72ADD07E9003D4DAE /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		7C67FCF42ADBEEAC0007440C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C67FCFE2ADBEF470007440C /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		7C67FD002ADBEF8E0007440C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		7CCE88DF2ADCFAF6003D4DAE /* Candy+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7CCE88E02ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Candy+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7CCE88E12ADCFAF6003D4DAE /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7CCE88E22ADCFAF6003D4DAE /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7CCE88E72ADD07E9003D4DAE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +85,10 @@
 		7C67FCFB2ADBEF030007440C /* DATA */ = {
 			isa = PBXGroup;
 			children = (
+				7CCE88DF2ADCFAF6003D4DAE /* Candy+CoreDataClass.swift */,
+				7CCE88E02ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift */,
+				7CCE88E12ADCFAF6003D4DAE /* Country+CoreDataClass.swift */,
+				7CCE88E22ADCFAF6003D4DAE /* Country+CoreDataProperties.swift */,
 				7C67FCFD2ADBEF470007440C /* CoreDataProject.xcdatamodeld */,
 				7C67FD002ADBEF8E0007440C /* DataController.swift */,
 			);
@@ -85,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				7C67FCEF2ADBEEAA0007440C /* ContentView.swift */,
+				7CCE88E72ADD07E9003D4DAE /* LaunchScreen.storyboard */,
 			);
 			path = VIEWS;
 			sourceTree = "<group>";
@@ -147,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCE88E82ADD07E9003D4DAE /* LaunchScreen.storyboard in Resources */,
 				7C67FCF52ADBEEAC0007440C /* Preview Assets.xcassets in Resources */,
 				7C67FCF22ADBEEAC0007440C /* Assets.xcassets in Resources */,
 			);
@@ -160,7 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C67FCF02ADBEEAA0007440C /* ContentView.swift in Sources */,
+				7CCE88E32ADCFAF6003D4DAE /* Candy+CoreDataClass.swift in Sources */,
 				7C67FD012ADBEF8E0007440C /* DataController.swift in Sources */,
+				7CCE88E42ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift in Sources */,
+				7CCE88E62ADCFAF6003D4DAE /* Country+CoreDataProperties.swift in Sources */,
+				7CCE88E52ADCFAF6003D4DAE /* Country+CoreDataClass.swift in Sources */,
 				7C67FCEE2ADBEEAA0007440C /* coreDataProjectApp.swift in Sources */,
 				7C67FCFF2ADBEF470007440C /* CoreDataProject.xcdatamodeld in Sources */,
 			);
