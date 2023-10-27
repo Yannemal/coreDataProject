@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C082AC22ADF8351001DB72C /* FilteredList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C082AC12ADF8351001DB72C /* FilteredList.swift */; };
 		7C67FCEE2ADBEEAA0007440C /* coreDataProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67FCED2ADBEEAA0007440C /* coreDataProjectApp.swift */; };
 		7C67FCF02ADBEEAA0007440C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C67FCEF2ADBEEAA0007440C /* ContentView.swift */; };
 		7C67FCF22ADBEEAC0007440C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C67FCF12ADBEEAC0007440C /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C082AC12ADF8351001DB72C /* FilteredList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredList.swift; sourceTree = "<group>"; };
+		7C381AFD2AE8CFE4007985C7 /* SfAtarianSystemExtendedBold-XX8g.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SfAtarianSystemExtendedBold-XX8g.ttf"; sourceTree = "<group>"; };
 		7C67FCEA2ADBEEAA0007440C /* coreDataProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreDataProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C67FCED2ADBEEAA0007440C /* coreDataProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreDataProjectApp.swift; sourceTree = "<group>"; };
 		7C67FCEF2ADBEEAA0007440C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +72,7 @@
 				7C67FCFC2ADBEF0E0007440C /* VIEWS */,
 				7C67FCFB2ADBEF030007440C /* DATA */,
 				7C67FCF12ADBEEAC0007440C /* Assets.xcassets */,
+				7C381AFD2AE8CFE4007985C7 /* SfAtarianSystemExtendedBold-XX8g.ttf */,
 				7C67FCF32ADBEEAC0007440C /* Preview Content */,
 			);
 			path = coreDataProject;
@@ -91,6 +95,7 @@
 				7CCE88E22ADCFAF6003D4DAE /* Country+CoreDataProperties.swift */,
 				7C67FCFD2ADBEF470007440C /* CoreDataProject.xcdatamodeld */,
 				7C67FD002ADBEF8E0007440C /* DataController.swift */,
+				7C082AC12ADF8351001DB72C /* FilteredList.swift */,
 			);
 			path = DATA;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 			files = (
 				7C67FCF02ADBEEAA0007440C /* ContentView.swift in Sources */,
 				7CCE88E32ADCFAF6003D4DAE /* Candy+CoreDataClass.swift in Sources */,
+				7C082AC22ADF8351001DB72C /* FilteredList.swift in Sources */,
 				7C67FD012ADBEF8E0007440C /* DataController.swift in Sources */,
 				7CCE88E42ADCFAF6003D4DAE /* Candy+CoreDataProperties.swift in Sources */,
 				7CCE88E62ADCFAF6003D4DAE /* Country+CoreDataProperties.swift in Sources */,
